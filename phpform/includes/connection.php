@@ -6,7 +6,7 @@ require("constants.php");
 	mysqli_select_db(DB_NAME) or die("No se logra conexion");*/
 
 	function connectDB(){
-		$server = "localhost";
+		$server = "127.0.0.1";
 		$user = "root";
 		$pass = "";
 		$bd = "proyecto";
