@@ -15,7 +15,7 @@ header("Location: intropage.php");
 if(isset($_POST["login"])){
 
 if(!empty($_POST['username']) && !empty($_POST['password'])) {
-	$server = "localhost";
+	$server = "127.0.0.1";
 		$user = "root";
 		$pass = "";
 		$bd = "proyecto";
